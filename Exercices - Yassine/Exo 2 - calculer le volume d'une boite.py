@@ -1,11 +1,25 @@
-# 2 : créer une gonction volume_boite() qui prend en parametre la longueur l la largeur larg et la hauteur h
+# 2 : créer une fonction volume_boite() qui prend en parametre la longueur l la largeur larg et la hauteur h
 # Puis determiner le volume d'une boite à partir des variables suivantes
 
-#exemple d'une fonction test() qui prend en parametre deux variables a et b
+#exemple d'une fonction nom_de_la_fonction() qui prend en parametre une variable
 
-def test(a,b) :
-    print(a)
-    print(b)
+def nom_de_la_fonction (parametres):
+    print(parametres)
 
-# 1 variable a et "bonjour" variable b
-test(1,"bonjour")
+def volume_boite (volume_boite):
+    hauteur = 5
+    longeur = 7
+    largeur= 6
+print(volume_boite)
+
+
+
+
+
+
+
+
+
+
+
+
