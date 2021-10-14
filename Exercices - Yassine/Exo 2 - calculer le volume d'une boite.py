@@ -8,3 +8,4 @@ def nom_de_la_fonction (parametres):
 
 # 1 variable a et "bonjour" variable b
 
+test=0
