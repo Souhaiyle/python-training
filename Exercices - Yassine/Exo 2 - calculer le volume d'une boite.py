@@ -3,9 +3,8 @@
 
 #exemple d'une fonction test() qui prend en parametre deux variables a et b
 
-def test(a,b) :
-    print(a)
-    print(b)
+def nom_de_la_fonction (parametres):
+    print(parametres)
 
 # 1 variable a et "bonjour" variable b
-test(1,"bonjour")
+
