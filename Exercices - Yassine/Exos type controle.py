@@ -15,7 +15,7 @@ def number(nb):
 
     if nb == 0 :
         print(bin(nb))
-    elif nb == 1 :
+    elif nb == 1:
         print(hex(nb))
 
 number(100)
