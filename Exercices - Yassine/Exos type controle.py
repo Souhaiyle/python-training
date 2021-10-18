@@ -8,5 +8,4 @@ def number(nb):
         10<nb<100
         print("Le nombre est compris entre 10 et 100")
 
-
-number(1000000)
+number(100000)
