@@ -5,24 +5,13 @@
 
 #creation de la fonction
 
-#creation de la fonction volume_boite() avec 3 parametres
-def volume_boite(longueur, largeur, hauteur):
-    volume = (longueur * largeur) / hauteur
-    print("Le volume de la boite est : ")
+def volume_boite(l,h,L):
+    volume = l*h/L
+    print("volume = ")
     print(volume)
 
 
-#appel de la fonction volume_boite() avec 3 parametres
-volume_boite(longueur=2, largeur=3,hauteur= 5)
 
 
-
-
-
-
-
-
-
-
-
-
+#Test de la fonction
+volume_boite(4,8,2)
