@@ -6,18 +6,18 @@
 #Si la température est entre 0 et 100 (compris) l'eau est à l'état liquide.
 #Si la température est strictement supérieure à 100.
 
-def temp(t):
-    t <= 0 and t >= 101
+
+def température(t):
+
     if t < 0:
-        print("L'état de l'eau est Solide")
+        print("L'eau est à l'état solide")
 
-    elif t > 100:
-        print("L'état de l'eau est Gazeux")
+    elif t >= 0 & t <= 100 :
+        print("L'eau est à l'état liquide")
 
-    else:
-        print("L'état de l'eau est Liquide")
+    else :
+        print("L'eau est à l'état gazeux")
 
 
-
-temp(50)
+température(500)
 
