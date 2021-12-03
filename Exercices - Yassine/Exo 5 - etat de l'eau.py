@@ -7,17 +7,22 @@
 #Si la température est strictement supérieure à 100.
 
 
-def température(t):
-
+def temperature(t):
     if t < 0:
         print("L'eau est à l'état solide")
-
-    elif t >= 0 & t <= 100 :
+    elif t >= 0 & t <= 100:
         print("L'eau est à l'état liquide")
-
     else :
         print("L'eau est à l'état gazeux")
 
+def temperature2(t):
+    if t > 100:
+        print("L'eau est à l'état gazeux")
+    elif t >= 0 & t <= 100:
+        print("L'eau est à l'état liquide")
+    else :
+        print("L'eau est à l'état solide")
 
-température(500)
+
+temperature2(500)
 
