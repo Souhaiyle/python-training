@@ -7,12 +7,10 @@ def number(nb):
     else:
         print("Le nombre est compris entre 10 et 100")
 
-    pair_impair = nb % 2
+    pair_impair = nb%2
     if pair_impair == 0:
-        print("Le nombre est pair")
+        print("Le nombre est pair", "donc binaire est : ",bin(nb))
     elif pair_impair == 1:
-        print("Le nombre est impair")
+        print("Le nombre est impair", "donc héxa est :" , hex(nb))
 
-    print("votre nombre ecrit en binaire:", bin(nb))
-    print("votre nombre ecrit en hexadécimal:", hex(nb))
-number(200)
+number(10000)

@@ -22,6 +22,6 @@ print(type(txt))
 for x in range(6):
     print(x)
 
-# break c'est pour s'arrêter. Ex: Stop à x = 3
+# break c'est pour s'arrêter.
 
 

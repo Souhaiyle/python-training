@@ -7,11 +7,25 @@
 
 def volume_boite(l,h,L):
     volume = l*h/L
-    print("volume = ")
-    print(volume)
+    print("volume = ",volume)
+
+
+# Test de la fonction
+volume_boite(4, 8, 2)
+
+# question : air d'un triangle A = 1/2b x h
+def air_triangle(b,h):
+    air = (b*h)/2
+    print("L'air du triangle est de ",air, "cm²")
+
+
+air_triangle(4,6)
 
 
 
 
-#Test de la fonction
-volume_boite(4,8,2)
+
+
+
+
+
