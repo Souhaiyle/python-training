@@ -4,9 +4,8 @@ def nb_max():
     for i in liste:
         if i > maximum:
             maximum = i
-    print(maximum)
-    print(liste.index(maximum))
-
+    print("Le plus grand nombre est",maximum)
+    print("Le rang de ce nombre est",liste.index(maximum))
 
 nb_max()
 
